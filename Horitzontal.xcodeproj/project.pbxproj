@@ -14,6 +14,8 @@
 		5F052D301D69A07A00452AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F052D2F1D69A07A00452AAA /* Assets.xcassets */; };
 		5F052D331D69A07A00452AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F052D311D69A07A00452AAA /* LaunchScreen.storyboard */; };
 		5F052D3E1D69A07A00452AAA /* HoritzontalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F052D3D1D69A07A00452AAA /* HoritzontalTests.m */; };
+		5F052D4A1D69A0AC00452AAA /* ReusableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F052D491D69A0AC00452AAA /* ReusableTableViewController.m */; };
+		5F052D4D1D6C324C00452AAA /* GesturesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F052D4C1D6C324C00452AAA /* GesturesVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5F052D391D69A07A00452AAA /* HoritzontalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoritzontalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F052D3D1D69A07A00452AAA /* HoritzontalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoritzontalTests.m; sourceTree = "<group>"; };
 		5F052D3F1D69A07A00452AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F052D481D69A0AC00452AAA /* ReusableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableTableViewController.h; sourceTree = "<group>"; };
+		5F052D491D69A0AC00452AAA /* ReusableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableTableViewController.m; sourceTree = "<group>"; };
+		5F052D4B1D6C324C00452AAA /* GesturesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesVC.h; sourceTree = "<group>"; };
+		5F052D4C1D6C324C00452AAA /* GesturesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 			children = (
 				5F052D261D69A07A00452AAA /* AppDelegate.h */,
 				5F052D271D69A07A00452AAA /* AppDelegate.m */,
+				5F052D481D69A0AC00452AAA /* ReusableTableViewController.h */,
+				5F052D491D69A0AC00452AAA /* ReusableTableViewController.m */,
 				5F052D291D69A07A00452AAA /* ViewController.h */,
 				5F052D2A1D69A07A00452AAA /* ViewController.m */,
 				5F052D2C1D69A07A00452AAA /* Main.storyboard */,
@@ -90,6 +98,8 @@
 				5F052D311D69A07A00452AAA /* LaunchScreen.storyboard */,
 				5F052D341D69A07A00452AAA /* Info.plist */,
 				5F052D231D69A07A00452AAA /* Supporting Files */,
+				5F052D4B1D6C324C00452AAA /* GesturesVC.h */,
+				5F052D4C1D6C324C00452AAA /* GesturesVC.m */,
 			);
 			path = Horitzontal;
 			sourceTree = "<group>";
@@ -211,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F052D4D1D6C324C00452AAA /* GesturesVC.m in Sources */,
 				5F052D2B1D69A07A00452AAA /* ViewController.m in Sources */,
 				5F052D281D69A07A00452AAA /* AppDelegate.m in Sources */,
+				5F052D4A1D69A0AC00452AAA /* ReusableTableViewController.m in Sources */,
 				5F052D251D69A07A00452AAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +414,7 @@
 				5F052D441D69A07A00452AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F052D451D69A07A00452AAA /* Build configuration list for PBXNativeTarget "HoritzontalTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +423,7 @@
 				5F052D471D69A07A00452AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

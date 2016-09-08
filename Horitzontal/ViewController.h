@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReusableTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ReusableTableViewController
 
 
 @end
